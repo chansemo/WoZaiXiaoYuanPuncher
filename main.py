@@ -6,9 +6,9 @@ from utils.sqlliteUtil import EasySqlite
 
 # 以下是脚本相关配置，按实际情况修改。
 # 填写SQLite的绝对路径，使用cron定时执行脚本时不要用相对路径！（找到项目根目录下的database.sqlite文件，复制其绝对路径）
-SQLITE_DIR = "Z:\\Users\\WoZaiXiaoYuanPuncher\\database.sqlite"
+SQLITE_DIR = "Z:\subdesk\githubku\WoZaiXiaoYuanPuncher\database.sqlite"
 # 填写json文件的绝对路径
-JSON_FILE = "Z:\\Users\\WoZaiXiaoYuanPuncher\\source.json"
+JSON_FILE = "Z:\subdesk\githubku\WoZaiXiaoYuanPuncher\source.json"
 
 if __name__ == '__main__':
     json_util = JsonReader(JSON_FILE)
